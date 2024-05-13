@@ -1,0 +1,11 @@
+Model Information:
+* title:	Waxed Concrete Skate Ledge
+* source:	https://sketchfab.com/3d-models/waxed-concrete-skate-ledge-88afb8115e744f18902842b184960311
+* author:	kpmaxo (https://sketchfab.com/oxampk)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Waxed Concrete Skate Ledge" (https://sketchfab.com/3d-models/waxed-concrete-skate-ledge-88afb8115e744f18902842b184960311) by kpmaxo (https://sketchfab.com/oxampk) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
