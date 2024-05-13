@@ -1,0 +1,11 @@
+Model Information:
+* title:	micro ramp al
+* source:	https://sketchfab.com/3d-models/micro-ramp-al-f4310428acc4490ca5a1d133e79111af
+* author:	adrixdky (https://sketchfab.com/adrixdky)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "micro ramp al" (https://sketchfab.com/3d-models/micro-ramp-al-f4310428acc4490ca5a1d133e79111af) by adrixdky (https://sketchfab.com/adrixdky) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
