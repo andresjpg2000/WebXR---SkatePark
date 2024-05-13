@@ -1,0 +1,11 @@
+Model Information:
+* title:	Skate Ramp Vienna
+* source:	https://sketchfab.com/3d-models/skate-ramp-vienna-3604d92de2484e5bb223afa571b77eb2
+* author:	b1ackt3a (https://sketchfab.com/b1ackt3a)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Skate Ramp Vienna" (https://sketchfab.com/3d-models/skate-ramp-vienna-3604d92de2484e5bb223afa571b77eb2) by b1ackt3a (https://sketchfab.com/b1ackt3a) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
