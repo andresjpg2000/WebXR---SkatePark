@@ -24,8 +24,8 @@
 
       <a-camera position="0 2 0"></a-camera>
       <a-entity gltf-model="#panorama" position="0 0 0" ></a-entity>
-      <a-entity gltf-model="#rampa1" position="6 -0.197 8.990" rotation="0 -90 0" scale="3 2 3"></a-entity>
-      <a-entity gltf-model="#rampa2" position="6 -0.197 -8.990" rotation="0 90 0" scale="3 2 3"></a-entity>
+      <a-entity gltf-model="#rampa1" src="./Models/ramp/Material_diffuse.jpeg" position="6 -0.197 8.990" rotation="0 -90 0" scale="3 2 3"></a-entity>
+      <a-entity gltf-model="#rampa2" material="src: ./Models/ramp/Material_diffuse.jpeg" position="6 -0.197 -8.990" rotation="0 90 0" scale="3 2 3"></a-entity>
       <a-entity gltf-model="#pizza" position="1.958 -2.779 9.254" scale=".3 .3 .3" rotation="0 45 0"></a-entity>
       <a-entity gltf-model="#pizza" position="0.439 -2.779 11.008" scale=".3 .3 .3" rotation="0 0 0"></a-entity>
       <a-entity gltf-model="#pizza" position="1.911 -2.779 10.759" scale=".3 .3 .3" rotation="0 70 0"></a-entity>
@@ -33,12 +33,24 @@
       <a-entity gltf-model="#skateRail" position="6 0 0"></a-entity>
       <a-entity gltf-model="#rampVienna" position="-0.5 0 1.522"></a-entity>
       <a-entity gltf-model="#skater" rotation="0 0 20" position="-0.5 0.666 1.247" animation-mixer></a-entity>
-      <a-entity gltf-model="#skater" rotation="0 -90 20" position="6.88 1.415 9.742" animation="property: position; from: 6.88 1.415 9.742; to: 6.88 0.30 6.90; loop: true; dur: 1000; easing: linear"></a-entity>
+      <a-entity gltf-model="#skater" rotation="0 -90 20" position="6.88 1.415 9.742" 
+      animation__rotzero="property: rotation; to: 0 -90 20; dur: 200; startEvents: loaded, animationcomplete__seven"
+      animation__first="property: position; to: 6.88 1.415 9.742; dur: 1000; easing: linear; startEvents: loaded, animationcomplete__seven"
+      animation__rotfirst="property: rotation; to: 0 -90 0; dur: 200; startEvents: animationcomplete__second"
+      animation__second="property: position; to: 7.5 0.30 6.90; dur: 1000; easing: linear; startEvents: animationcomplete__first" 
+      animation__third="property: position; to: 7.5 0.30 -5; dur: 1500; easing: linear; startEvents: animationcomplete__second"
+      animation__rotsecond="property: rotation; to: 0 -90 -20 ; dur: 200; startEvents: animationcomplete__third"
+      animation__fourth="property: position; to: 7.5 1.45 -10; dur: 1500; easing: linear; startEvents: animationcomplete__third"
+      animation__rotthird="property: rotation; to: 0 -90 -20; dur: 200; startEvents: animationcomplete__fourth"
+      animation__five="property: position; to: 7.5 0.30 -5; dur: 1500; easing: linear; startEvents: animationcomplete__fourth"
+      animation__rotfourth="property: rotation; to: 0 -90 0; dur: 200; startEvents: animationcomplete__five"
+      animation__six="property: position; to: 7.5 0.30 6.90; dur: 1000; easing: linear; startEvents: animationcomplete__five"
+      animation__rotfive="property: rotation; to: 0 -90 20; dur: 200; startEvents: animationcomplete__six"
+      animation__seven="property: position; to: 6.88 1.415 9.742; dur: 1000; easing: linear; startEvents: animationcomplete__six"></a-entity>
       <a-entity gltf-model="#step" position="0.564 0 -6" rotation="0 90 0" ></a-entity>
       <a-entity gltf-model="#microRamp" position="-5 0.076 9.181" scale="1.5 1.5 1.5" animation-mixer></a-entity>
       <a-entity gltf-model="#photographer" position="0 0 7" rotation="0 180 0"></a-entity>
       <a-entity gltf-model="#people" position="-3.5 0 1" rotation="0 90 0" scale="1.5 1.5 1.5"></a-entity>
-
       <a-sky color=""></a-sky>
 
     </a-scene>
